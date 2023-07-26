@@ -1,6 +1,6 @@
-# School library 
+# OOP School library 
 
-....
+Using the OOP to create a library to rent books for a school
 
 <a name="readme-top"></a>
 
@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [XXX]  <a name="about-project"></a>
+# 📖 School library   <a name="about-project"></a>
 
-.....
+Here you can rent any book for the library to never be loss in your class
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,9 +66,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```sh
- sudo apt-get install postgresql postgresql-contrib 
-```
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
+> - IDE
+> - Etc
 
 ### Setup
 
@@ -76,7 +77,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:enmanuelbayen/[XXXXXX]........
+
+  git clone git@github.com:enmanuelbayen/OOP-school-library.git
 ```
 
 
@@ -85,7 +87,9 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd FILE-NAME HERE.....
+  cd OOP-school-library
+  
+  bundle install
 ```
 
 ### Usage
@@ -93,7 +97,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  Not Available
+  ruby main.rb
 ```
 
 ### Run tests
@@ -101,7 +105,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  Not Available
+  rspec spec/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,7 +136,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome! Will help me a lot to improve my coding skills.
 
-Feel free to check the [issues page](https://github.com/enmanuelbayen/FILE-NAME-HERE/issues)
+Feel free to check the [issues page](https://github.com/enmanuelbayen/OOP-school-library/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
