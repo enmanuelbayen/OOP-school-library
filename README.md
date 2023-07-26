@@ -66,9 +66,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```sh
- sudo apt-get install postgresql postgresql-contrib 
-```
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
+> - IDE
+> - Etc
 
 ### Setup
 
@@ -76,7 +77,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:enmanuelbayen/OOP-school-library
+
+  git clone git@github.com:enmanuelbayen/OOP-school-library.git
 ```
 
 
@@ -86,6 +88,8 @@ Install this project with:
 
 ```sh
   cd OOP-school-library
+  
+  bundle install
 ```
 
 ### Usage
@@ -93,7 +97,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  Not Available
+  ruby main.rb
 ```
 
 ### Run tests
@@ -101,7 +105,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  Not Available
+  rspec spec/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
