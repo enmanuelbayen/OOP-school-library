@@ -5,7 +5,7 @@ class Student < Person
   attr_reader :classroom
 
   def initialize(id: rand(1..100), name: 'Unknown', age: nil, parent_permission: true)
-    super(id: id, name: name, age: age, parent_permission: parent_permission)
+    super(id, name, age, parent_permission: parent_permission)
   end
 
   def play_hooky
