@@ -1,5 +1,5 @@
-require_relative './decorator/trimmer_decorator'
-require_relative './decorator/capitalize_decorator'
+require_relative 'decorator/trimmer_decorator'
+require_relative 'decorator/capitalize_decorator'
 require_relative 'person'
 
 person = Person.new(22, 'maximilianus')
