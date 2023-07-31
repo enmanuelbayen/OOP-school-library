@@ -1,4 +1,4 @@
-require_relative './classes/app'
+require_relative 'classes/app'
 
 def print_options
   puts ''
