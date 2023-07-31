@@ -114,7 +114,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Enmanuel Bayen**
+👤 **Enmanuel Bayen🔭**
 
 - GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
 - Twitter: [@EJbayen](https://twitter.com/EJbayen)
