@@ -114,12 +114,18 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Enmanuel Bayen**
+👤 **Enmanuel Bayen🔭**
 
 - GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
 - Twitter: [@EJbayen](https://twitter.com/EJbayen)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
+
+👤 **Qurban Ali Safari**
+
+- 👤 GitHub:   [Ali-0111](https://github.com/Ali-0111)
+- 👤 Twitter:  [qurban_safari](https://twitter.com/qurban_safari)
+- 👤 LinkedIn: [Safari](https://www.linkedin.com/in/ali-safari-linked)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
