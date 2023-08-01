@@ -2,6 +2,7 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
+require_relative 'user_input'
 
 class App
   def initialize
@@ -28,10 +29,7 @@ class App
     option_person = gets.chomp.to_i
     case option_person
     when 1
-      print 'Age: '
-      person_age = gets.chomp.to_i
-      print 'Name: '
-      person_name = gets.chomp.to_s
+      person_age, person_name = UserInputHandler.person_input
       print 'Has parent permission? [Y/N]: '
       person_permission = gets.chomp.downcase
       if person_permission.capitalize == 'N'
@@ -41,12 +39,7 @@ class App
       end
       puts 'Student created successfully'
     when 2
-      print 'Age: '
-      person_age = gets.chomp.to_i
-      print 'Name: '
-      person_name = gets.chomp.to_s
-      print 'Specialization: '
-      person_specialization = gets.chomp.to_s
+      person_age, person_name, person_specialization = UserInputHandler.teacher_input
       @people.push(Teacher.new(person_specialization, person_name, person_age))
       puts 'Teacher created successfully'
     else
@@ -56,31 +49,16 @@ class App
   end
 
   def create_book
-    print 'Title: '
-    book_title = gets.chomp.to_s
-    print 'Author: '
-    book_author = gets.chomp.to_s
+    book_title, book_author = UserInputHandler.book_input
     @books.push(Book.new(book_title, book_author))
     puts 'Book created successfully'
   end
 
   def create_rental
-    if @people == [] || @books == []
+    if @people.empty? || @books.empty?
       puts 'Error: Please create a person and a book'
-      nil
-    elsif @people != [] && @books != []
-      puts 'Select a book from the following list by number'
-      @books.each_with_index do |object, index|
-        puts "#{index}) Title: '#{object.title}', Author: #{object.author}"
-      end
-      book_number = gets.chomp.to_i
-      puts 'Select a person from the following list by number (not id)'
-      @people.each_with_index do |object, index|
-        puts "#{index}) [#{object.class}] Name: #{object.name}, ID: #{object.id}, Age: #{object.age}"
-      end
-      person_number = gets.chomp.to_i
-      print 'Date: '
-      date = gets.chomp.to_s
+    else
+      book_number, person_number, date = UserInputHandler.rental_input(@books, @people)
       @rentals.push(Rental.new(@books[book_number], @people[person_number], date))
       puts 'Rental created successfully'
     end
