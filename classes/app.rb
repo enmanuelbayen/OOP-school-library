@@ -5,6 +5,7 @@ require_relative 'rental'
 require_relative 'user_input'
 
 class App
+  attr_reader :books, :people, :rentals
   def initialize
     puts 'Welcome to School Library App!'
     @books = []
