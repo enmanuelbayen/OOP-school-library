@@ -1,5 +1,4 @@
 require_relative 'classes/app'
-require_relative 'classes/save'
 
 class Main
   def initialize
@@ -20,9 +19,8 @@ class Main
 
   def operator(option)
     if option == 7
-      Save.new.to_json([{bookName: 'English', author: 'John'}], 'books.json')
-      Save.new.to_json([{Name: 'John', age: 18}], 'people.json')
-      Save.new.to_json([{bookName: 'English', author: 'John'}], 'rentals.json')
+      puts 'Thank you for using this app!'
+      nil
     elsif option.between?(1, 6)
       case option
       when 1
