@@ -19,9 +19,6 @@ Metrics/ClassLength:
   Max: 150
 Metrics/CyclomaticComplexity:
   Max: 15
-Metrics/BlockLength:
-  IgnoredMethods: ['describe']
-  Max: 60
 
 
 Style/Documentation:
