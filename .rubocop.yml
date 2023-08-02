@@ -11,15 +11,14 @@ Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
   Max: 140
+Metrics/ModuleLength:
+  Max: 140
 Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
   Max: 150
 Metrics/CyclomaticComplexity:
   Max: 15
-Metrics/BlockLength:
-  IgnoredMethods: ['describe']
-  Max: 60
 
 
 Style/Documentation:
@@ -34,6 +33,8 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/EndOfLine: 
+  EnforcedStyle: lf
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
