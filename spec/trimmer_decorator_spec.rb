@@ -10,7 +10,7 @@ describe 'Tests For Decorator class:' do
   
   # test the correct_name method  
   context 'correct_name method' do
-    it 'should return the name and size should me 10' do
+    it 'should return the name and size should be 10' do
       expect(trimmer.correct_name.size).to eq(10)
     end
   end
