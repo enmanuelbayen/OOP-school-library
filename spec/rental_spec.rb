@@ -1,5 +1,5 @@
 require_relative '../classes/rental'
-require_relative '../classes/student'
+require_relative '../classes/person'
 require_relative '../classes/book'
 
 describe 'Tests For Rental class:' do
