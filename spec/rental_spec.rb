@@ -11,25 +11,24 @@ describe 'Tests For Rental class:' do
   # created instance of Rental class
   rental = Rental.new(book, person, date)
 
-  # test the date method 
+  # test the date method
   context 'date method' do
     it 'date method should return the date:' do
       expect(rental.date).to eq(date)
     end
   end
 
-  # test the book method 
+  # test the book method
   context 'book method' do
     it 'should be instance of Book class:' do
       expect(rental.book).to be_instance_of(Book)
     end
   end
 
-  # test the person method 
+  # test the person method
   context 'person method' do
     it 'should be instance of person class:' do
       expect(rental.person).to be_instance_of(Person)
     end
   end
 end
-
