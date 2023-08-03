@@ -121,7 +121,7 @@ To run tests, run the following command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
 
-👤 **Qurban Ali Safari🔭**
+👤 **Qurban Ali Safari**
 
 - 👤 GitHub:   [Ali-0111](https://github.com/Ali-0111)
 - 👤 Twitter:  [qurban_safari](https://twitter.com/qurban_safari)
